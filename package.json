@@ -1,0 +1,28 @@
+{
+  "name": "cluster-christener",
+  "version": "1.0.0",
+  "description": "Christens journal clusters.",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gntstrsk/cluster-christener.git"
+  },
+  "author": "gntstrsk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gntstrsk/cluster-christener/issues"
+  },
+  "homepage": "https://github.com/gntstrsk/cluster-christener#readme"
+}
