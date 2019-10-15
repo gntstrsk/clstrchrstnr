@@ -24,5 +24,7 @@ app.use((err, req, res, next) => {
 
 module.exports = app;
 
-const server = http.createServer(app);
-server.listen(process.env.HOST_PORT);
+if (process.env.ENV == 'dev') {
+    const server = http.createServer(app);
+    server.listen(process.env.HOST_PORT);
+}
