@@ -8,8 +8,8 @@ const app = express();
 const routes = require('./routes');
 const morgan = require('morgan');
 
-//app.use(express.static('public'));
 app.set('view engine', 'ejs');
+app.use(express.static('views/css'));
 
 app.use(morgan(process.env.ENV));
 app.use(express.json());
