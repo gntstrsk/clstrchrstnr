@@ -8,6 +8,9 @@ const app = express();
 const routes = require('./routes');
 const morgan = require('morgan');
 
+//app.use(express.static('public'));
+app.set('view engine', 'ejs');
+
 app.use(morgan(process.env.ENV));
 app.use(express.json());
 
@@ -17,7 +20,7 @@ app.use((err, req, res, next) => {
     res.status(err.status || 500);
     res.json({
         error: {
-        message: err.message
+        	message: err.message
         }
     });
 });

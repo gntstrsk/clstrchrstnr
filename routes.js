@@ -19,9 +19,15 @@ router.get('/', (req, res, next) => {
 
   const journalName = list.join(' ');
   
+  /*
   // Return Data
   res.status(200).json({
     journal_name: journalName
+  });
+  */
+  
+  res.render('pages/index',{
+  	journalName: journalName
   });
 });
 
