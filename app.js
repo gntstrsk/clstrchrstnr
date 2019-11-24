@@ -29,5 +29,5 @@ module.exports = app;
 
 if (process.env.ENV == 'dev' || process.env.ENV == 'prod') {
     const server = http.createServer(app);
-    server.listen(process.env.HOST_PORT);
+    server.listen(process.env.PORT);
 }
