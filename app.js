@@ -27,7 +27,7 @@ app.use((err, req, res, next) => {
 
 module.exports = app;
 
-if (process.env.ENV == 'dev') {
+if (process.env.ENV == 'dev' || process.env.ENV == 'prod') {
     const server = http.createServer(app);
     server.listen(process.env.HOST_PORT);
 }
