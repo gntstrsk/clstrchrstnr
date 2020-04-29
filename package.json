@@ -1,5 +1,5 @@
 {
-  "name": "cluster-christener",
+  "name": "clstrchrstnr",
   "version": "1.0.0",
   "description": "Christens journal clusters.",
   "main": "app.js",
@@ -20,15 +20,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gntstrsk/cluster-christener.git"
+    "url": "git+https://github.com/gntstrsk/clstrchrstnr.git"
   },
   "author": "gntstrsk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gntstrsk/cluster-christener/issues"
+    "url": "https://github.com/gntstrsk/clstrchrstnr/issues"
   },
   "engines": {
     "node": "8.12.0"
   },
-  "homepage": "https://github.com/gntstrsk/cluster-christener#readme"
+  "homepage": "https://github.com/gntstrsk/clstrchrstnr#readme"
 }
