@@ -27,7 +27,7 @@
     "url": "https://github.com/gntstrsk/clstrchrstnr/issues"
   },
   "engines": {
-    "node": "8.12.0"
+    "node": "22.14"
   },
   "homepage": "https://github.com/gntstrsk/clstrchrstnr#readme"
 }
