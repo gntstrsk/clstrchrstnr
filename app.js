@@ -6,12 +6,12 @@ const http = require('http');
 const express = require('express');
 const app = express();
 const routes = require('./routes');
-const morgan = require('morgan');
+//const morgan = require('morgan');
 
 app.set('view engine', 'ejs');
 app.use(express.static('views/css'));
 
-app.use(morgan(process.env.ENV));
+//app.use(morgan(process.env.ENV));
 app.use(express.json());
 
 app.use('/', routes);

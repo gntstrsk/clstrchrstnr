@@ -4,11 +4,10 @@
   "description": "Christens journal clusters.",
   "main": "app.js",
   "dependencies": {
-    "dotenv": "^8.1.0",
+    "dotenv": "16.4.7",
     "ejs": "^2.7.4",
     "express": "^4.17.1",
-    "fs": "0.0.1-security",
-    "morgan": "^1.9.1"
+    "fs": "0.0.1-security"
   },
   "devDependencies": {
     "nodemon": "^1.19.3"
