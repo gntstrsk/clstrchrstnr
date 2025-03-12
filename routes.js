@@ -1,12 +1,20 @@
 // General Requirements
 const express = require('express');
+var path = require('path');
 const router = express.Router();
 const fs = require('fs');
 
 router.get('/', (req, res, next) => {
 
+  // Set Config Directory (Generalizing for Builds)
+  const configDirectory = path.resolve(process.cwd());
+
   // Parse JSON File
-  const rawData = fs.readFileSync('keywords.json');
+  //const rawData = fs.readFileSync('keywords.json');
+  const rawData = fs.readFileSync(
+    path.join(configDirectory, "keywords.json"),
+    "utf8"
+  );
   const parsedData = JSON.parse(rawData);
 
   // Get Random Name per Keyword
