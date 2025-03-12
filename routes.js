@@ -8,6 +8,8 @@ router.get('/', (req, res, next) => {
 
   // Set Config Directory (Generalizing for Builds)
   const configDirectory = path.resolve(process.cwd());
+  console.log("hi " + configDirectory + " is the config directory");
+  console.log("hello " + path.join(configDirectory, "keywords.json"));
 
   // Parse JSON File
   //const rawData = fs.readFileSync('keywords.json');
