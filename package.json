@@ -5,12 +5,13 @@
   "main": "app.js",
   "dependencies": {
     "dotenv": "16.4.7",
-    "ejs": "^2.7.4",
+    "ejs": "^3.1.10",
     "express": "^4.17.1",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   },
   "devDependencies": {
-    "nodemon": "^1.19.3"
+    "nodemon": "^3.1.9"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
